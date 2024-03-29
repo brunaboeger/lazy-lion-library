@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'colors';
+@import 'variables';
+
+
+//* HEADINGS
+
+.lazy {
+  & h1 {
+    font-size: 2em;
+  }
+}
+
+// h1.lazy {
+//   font-size: 2em;
+// }
+
+h2.lazy {
+  font-size: 1.5em;
+}
+
+h3.lazy {
+  font-size: 1.25em;
+}
+
+h4.lazy {
+  font-size: 1.125em;
+}
+
+
+//* PARAGRAPHS
+
+p {
+  &.lazy {
+    font-size: $font-size;
+  }
+  &.lazy-sm {
+    font-size: $font-size-sm;
+  }
+  &.lazy-label {
+    font-size: $font-size;
+    color: $color-text-label;  
+    font-weight: $font-weight-bold;
+  }
+}
+
+
+// * SMALL
+
+small {
+  &.lazy {
+    font-size: $font-size-sm;
+  }
+  &.lazy-uppercase {
+    text-transform: uppercase;
+  }
+}

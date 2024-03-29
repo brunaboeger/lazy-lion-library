@@ -1,0 +1,11 @@
+@import 'variables';
+
+:root {
+  --color-primary: #007bff;
+
+  --color-border: #c4c9ce;
+  --color-border--hover: #9da4aa;
+  --color-border--active: var(--color-primary);
+
+  --color-background: #d0e1f3;
+}

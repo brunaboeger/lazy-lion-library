@@ -1,0 +1,13 @@
+import { Meta, Story, Canvas } from '@storybook/blocks';
+import * as TextFieldStories from './TextField.stories';
+
+<Meta title="TextField" of={TextFieldStories} />
+
+# TextField
+
+TextField é um campo de texto para entrada de dados. 
+Tem um contador de caracteres e um botão para limpar o campo. Tem uma label e informação extra.
+
+<Canvas>
+  <Story of={TextFieldStories} />
+</Canvas>

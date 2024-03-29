@@ -1,0 +1,85 @@
+
+/* 
+  Table:
+
+  0.25rem   >   4px
+  0.5rem    >   8px
+  0.75rem   >   12px
+  1rem      >   16px
+  1.5rem    >   24px
+  2rem      >   32px
+  2.5rem    >   40px
+  3rem      >   48px
+
+  Default measurement: 12px
+*/
+
+// * COLORS
+
+$color-primary: #007bff;
+
+$color-text: #333;
+$color-text-muted: #6c757d;
+$color-text-label: #6c757d;
+
+$color-background--hover: rgba($color-primary, 0.10);
+
+$color-border: #a4b2be;
+$color-border--hover: #94a0aa;
+$color-border--active: $color-primary;
+
+$color-success: #77D183;
+$color-error: #FF0047;
+$color-info: #00A9E4;
+$color-warning: #F0A300;
+
+
+// * SPACINGS
+
+$spacing: 1rem;
+$spacing-0: 0;
+$spacing-1: 0.25rem;
+$spacing-2: 0.5rem;
+$spacing-3: 0.75rem;
+$spacing-4: 1.5rem;
+$spacing-5: 2.0rem;
+$spacing-6: 2.5rem;
+$spacing-7: 3rem;
+
+$spacing-section: $spacing;
+$spacing-fields: $spacing-3;
+
+
+// * SIZES
+
+$size: $spacing-6;
+$size-sm: $spacing-4;
+$size-md: $spacing-5;
+
+
+// * BORDERS
+
+$border: 1px solid $color-border;
+$border--hover: 1px solid $color-border--hover;
+$border-radius: 0.25rem;
+$border-radius-lg: $border-radius * 2;
+
+
+// * FONTS
+
+$font-size: 1em;
+$font-size-xs: 0.75em;
+$font-size-sm: 0.875em;
+$font-size-md: 1.125em;
+$font-size-lg: 1.25em;
+$font-size-xl: 1.5em;
+
+$font-weight: 400;
+$font-weight-semi: 500;
+$font-weight-bold: 700;
+$font-weight-light: 300;
+
+
+// * TRANSITIONS
+
+$transition-all: all 0.3s ease-in-out;

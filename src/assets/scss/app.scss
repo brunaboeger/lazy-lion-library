@@ -1,0 +1,40 @@
+@import './colors';
+@import './fonts';
+@import './layout';
+@import './reset';
+@import './animations';
+@import './variables';
+
+* {
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+  transition: $transition-all;
+}
+
+:root {
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 4rem;
+
+  --spacing-fields: 0.75rem;
+
+
+  // * SIZES
+  
+  --size-xs: 1.5rem;
+  --size-sm: 2rem;
+  --size-md: 2.5rem;
+  --size-lg: 3rem;
+  --size-xl: 3.5rem;
+  --size-xxl: 4rem;
+  
+
+  // * BORDERS
+  
+  --border: 1px solid var(--color-border);
+  --border-radius: .3rem;
+}
